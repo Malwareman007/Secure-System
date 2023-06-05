@@ -21,19 +21,11 @@ This repository contains the implementation of a secure file transfer system usi
    cd Secure-System
    ```
    
-3. Run the encryption process:
+3. Run the Program:
     ```
-    python encrypt.py
+    java Scuresystem.java
     ```
- Follow the prompts to provide the necessary input, such as the file to encrypt.
 
- 4. Run the decryption process:
- 
-    ```
-    python decrypt.py
-     ```
-     Follow the prompts to provide the necessary input, such as the encrypted file.
-     
      # Experimental Results
      The performance of the secure file transfer system was evaluated on different file sizes. The encryption and decryption times were measured on a system with an Intel Core i5-8250U processor, 8GB DDR4 RAM, and a 256GB solid-state drive.
    * Encryption Time: The encryption time increased with larger file sizes, but remained efficient, with files up to 100MB encrypted in less than 5 seconds.
